@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400&family=Montserrat:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="scripts/nouislider.min.css" />
+    <link rel="stylesheet" href="scripts/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="scripts/slick-1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Grace</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__logo">Greace</div>
+        <ul class="header__menu">
+          <li class="header__menu-select">
+            Каталог
+            <select>
+              <option value="1">Вибір 1</option>
+              <option value="2">Вибір 2</option>
+              <option value="3">Вибір 3</option>
+            </select>
+          </li>
+
+          <li>
+            <a href="#" class="header__menu-item">Про бренд</a>
+          </li>
+          <li>
+            <a href="#" class="header__menu-item">Акції</a>
+          </li>
+          <li>
+            <a href="#" class="header__menu-item">Контакти</a>
+          </li>
+        </ul>
+        <nav class="header__nav">
+          <button class="header__nav-btn">
+            <svg
+              width="17"
+              height="17"
+              viewBox="0 0 17 17"
+              fill="none"
+              stroke="white"
+              stroke-width="1"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask id="path-1-inside-1_12_101" fill="white">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12.2127 12.878L12.7269 12.3638L12.7346 12.3715C15.2887 9.62645 15.2292 5.32977 12.5563 2.65688C9.82268 -0.076789 5.39052 -0.0767891 2.65685 2.65688C-0.0768159 5.39055 -0.0768159 9.82271 2.65685 12.5564C5.27875 15.1783 9.46306 15.2855 12.2127 12.878ZM12.5447 13.2519C9.59872 15.834 5.11343 15.7201 2.3033 12.9099C-0.625631 9.981 -0.625631 5.23226 2.3033 2.30333C5.23223 -0.625604 9.98097 -0.625604 12.9099 2.30333C15.7781 5.17149 15.8376 9.78474 13.0884 12.7253L16.627 16.2639L16.0919 16.799L12.5447 13.2519Z"
+                />
+              </mask>
+              <path
+                d="M12.2127 12.878L12.5421 13.2542L12.5546 13.2433L12.5663 13.2316L12.2127 12.878ZM12.7269 12.3638L13.0805 12.0103L12.7269 11.6567L12.3734 12.0103L12.7269 12.3638ZM12.7346 12.3715L12.3811 12.7251L12.7476 13.0916L13.1007 12.7121L12.7346 12.3715ZM12.5447 13.2519L12.8983 12.8983L12.5672 12.5673L12.2152 12.8759L12.5447 13.2519ZM13.0884 12.7253L12.7232 12.3838L12.393 12.737L12.7349 13.0789L13.0884 12.7253ZM16.627 16.2639L16.9806 16.6175L17.3341 16.2639L16.9806 15.9104L16.627 16.2639ZM16.0919 16.799L15.7383 17.1526L16.0919 17.5061L16.4454 17.1526L16.0919 16.799ZM12.5663 13.2316L13.0805 12.7174L12.3734 12.0103L11.8592 12.5244L12.5663 13.2316ZM12.3734 12.7174L12.3811 12.7251L13.0882 12.018L13.0805 12.0103L12.3734 12.7174ZM13.1007 12.7121C15.8374 9.77071 15.7738 5.16721 12.9099 2.30333L12.2028 3.01043C14.6847 5.49233 14.7399 9.48219 12.3686 12.031L13.1007 12.7121ZM12.9099 2.30333C9.98097 -0.625604 5.23223 -0.625604 2.3033 2.30333L3.01041 3.01043C5.54882 0.472026 9.66439 0.472027 12.2028 3.01043L12.9099 2.30333ZM2.3033 2.30333C-0.625631 5.23226 -0.625631 9.981 2.3033 12.9099L3.01041 12.2028C0.472 9.66441 0.472 5.54884 3.01041 3.01043L2.3033 2.30333ZM2.3033 12.9099C5.11261 15.7192 9.59567 15.8339 12.5421 13.2542L11.8834 12.5018C9.33046 14.737 5.44488 14.6373 3.01041 12.2028L2.3033 12.9099ZM1.94975 13.2635C4.94735 16.2611 9.73152 16.3825 12.8743 13.6279L12.2152 12.8759C9.46591 15.2856 5.2795 15.179 2.65685 12.5564L1.94975 13.2635ZM1.94975 1.94977C-1.17445 5.07397 -1.17445 10.1393 1.94975 13.2635L2.65685 12.5564C-0.0768159 9.82271 -0.0768159 5.39055 2.65685 2.65688L1.94975 1.94977ZM13.2635 1.94977C10.1393 -1.17442 5.07394 -1.17442 1.94975 1.94977L2.65685 2.65688C5.39052 -0.0767891 9.82268 -0.076789 12.5563 2.65688L13.2635 1.94977ZM13.4537 13.0668C16.3863 9.92994 16.3229 5.00922 13.2635 1.94977L12.5563 2.65688C15.2332 5.33377 15.2888 9.63954 12.7232 12.3838L13.4537 13.0668ZM12.7349 13.0789L16.2735 16.6175L16.9806 15.9104L13.442 12.3718L12.7349 13.0789ZM16.2735 15.9104L15.7383 16.4455L16.4454 17.1526L16.9806 16.6175L16.2735 15.9104ZM16.4454 16.4455L12.8983 12.8983L12.1912 13.6054L15.7383 17.1526L16.4454 16.4455Z"
+                fill="white"
+                mask="url(#path-1-inside-1_12_101)"
+              />
+            </svg>
+          </button>
+          <button class="header__nav-btn">
+            <svg
+              width="17"
+              height="17"
+              viewBox="0 0 17 17"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="8.24878"
+                cy="3.87439"
+                r="3.25"
+                stroke="white"
+                stroke-width="1.5"
+              />
+              <path
+                d="M0.998779 15.8744C0.998779 11.8703 4.24472 8.62439 8.24878 8.62439C12.2528 8.62439 15.4988 11.8703 15.4988 15.8744V17.1244H0.998779V15.8744Z"
+                stroke="white"
+                stroke-width="1.5"
+              />
+            </svg>
+          </button>
+          <button class="header__nav-btn">
+            <svg
+              width="18"
+              height="17"
+              viewBox="0 0 18 17"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 16.3744L1 5.87439H17.5L15.5 16.3744H3Z"
+                stroke="white"
+                stroke-width="1.2"
+              />
+              <path
+                d="M11.75 3.37439V6.12439H6.25V3.37439C6.25 1.85561 7.48122 0.62439 9 0.62439C10.5188 0.62439 11.75 1.85561 11.75 3.37439Z"
+                stroke="white"
+                stroke-width="1.2"
+              />
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <section class="main">
+      <div class="container">
+        <h1 class="main__title">Елегантність у кожному моменті</h1>
+        <p class="main__desc">
+          Безкоштовна доставка ювелірних прикрас по всій Україні
+        </p>
+        <div class="main__catalog">
+          <img src="/img/Ellipse 1.png" alt="Ellipse 1" />
+          <img src="/img/Ellipse 2.png" alt="Ellipse 2" />
+          <a href="#" class="main__catalog-btn">каталог</a>
+        </div>
+      </div>
+    </section>
+    <section class="catalog">
+      <h2 class="catalog__title">Каталог товарів</h2>
+      <div class="container">
+        <aside class="catalog__aside">
+          <form class="catalog__aside-content">
+            <h3 class="catalog__aside-title">Фільтри</h3>
+            <h4 class="catalog__aside-subtitle">Категорія</h4>
+            <label class="catalog__aside-desc"
+              ><input type="checkbox" />Кільця</label
+            >
+            <label class="catalog__aside-desc"
+              ><input type="checkbox" />Сережки</label
+            >
+            <label class="catalog__aside-desc"
+              ><input type="checkbox" />Броші</label
+            >
+            <label class="catalog__aside-desc"
+              ><input type="checkbox" />Підвіски</label
+            >
+            <label class="catalog__aside-desc"
+              ><input type="checkbox" />Браслети</label
+            >
+          </form>
+
+          <form class="catalog__aside-content">
+            <h3 class="catalog__aside-title">Матеріал</h3>
+            <label class="catalog__aside-desc"
+              ><input type="checkbox" />Жовте золото</label
+            >
+            <label class="catalog__aside-desc"
+              ><input type="checkbox" />Біле золото</label
+            >
+            <label class="catalog__aside-desc"
+              ><input type="checkbox" />Срібло</label
+            >
+          </form>
+          <div class="catalog__aside-content">
+            <h3 class="catalog__aside-title">Ціна</h3>
+            <div class="catalog__aside-content-range">
+              <label class="catalog__aside-filter-label">
+                <input
+                  type="number"
+                  min="100"
+                  max="99999"
+                  placeholder="100"
+                  class="catalog__aside-input"
+                  id="input-0"
+                />
+              </label>
+              <div class="catalog__aside-filter" id="range-slider"></div>
+              <label class="catalog__aside-filter-label">
+                <input
+                  type="number"
+                  min="100"
+                  max="99999"
+                  placeholder="99999"
+                  class="catalog__aside-input"
+                  id="input-1"
+                />
+              </label>
+            </div>
+          </div>
+        </aside>
+
+        <div class="catalog__block">
+          <p class="catalog__block-sort">
+            Сортувати по:
+            <select>
+              <option selected value="1">Популярність</option>
+              <option value="2">Ціна</option>
+              <option value="3">Оновлення</option>
+            </select>
+          </p>
+
+          <div class="catalog__block-content active">
+            <div class="catalog__item">
+              <img src="img/earrings.png" alt="Earrings" />
+              <p class="catalog__item-desc">
+                Срібні сережки з блакитним <br />кварцом 121725
+              </p>
+              <div class="catalog__item-btns">
+                <a href="#" class="catalog__item-button">+ в корзину</a>
+                <a href="#" class="catalog__item-button">Детальніше</a>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <img src="img/earrings.png" alt="Earrings" />
+              <p class="catalog__item-desc">
+                Срібні сережки з блакитним <br />кварцом 121725
+              </p>
+              <div class="catalog__item-btns">
+                <a href="#" class="catalog__item-button">+ в корзину</a>
+                <a href="#" class="catalog__item-button">Детальніше</a>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <img src="img/earrings.png" alt="Earrings" />
+              <p class="catalog__item-desc">
+                Срібні сережки з блакитним <br />кварцом 121725
+              </p>
+              <div class="catalog__item-btns">
+                <a href="#" class="catalog__item-button">+ в корзину</a>
+                <a href="#" class="catalog__item-button">Детальніше</a>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <img src="img/earrings.png" alt="Earrings" />
+              <p class="catalog__item-desc">
+                Срібні сережки з блакитним <br />кварцом 121725
+              </p>
+              <div class="catalog__item-btns">
+                <a href="#" class="catalog__item-button">+ в корзину</a>
+                <a href="#" class="catalog__item-button">Детальніше</a>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <img src="img/earrings.png" alt="Earrings" />
+              <p class="catalog__item-desc">
+                Срібні сережки з блакитним <br />кварцом 121725
+              </p>
+              <div class="catalog__item-btns">
+                <a href="#" class="catalog__item-button">+ в корзину</a>
+                <a href="#" class="catalog__item-button">Детальніше</a>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <img src="img/earrings.png" alt="Earrings" />
+              <p class="catalog__item-desc">
+                Срібні сережки з блакитним <br />кварцом 121725
+              </p>
+              <div class="catalog__item-btns">
+                <a href="#" class="catalog__item-button">+ в корзину</a>
+                <a href="#" class="catalog__item-button">Детальніше</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="catalog__block-content">
+            <div class="catalog__item">
+              <img src="https://oniks.ua/upload/resize_cache/iblock/2c7/561_561_1/2c7af2176f13147cc86878d0ac892a29.jpg" alt="Bracelet" />
+              <p class="catalog__item-desc">
+                Золотий браслет "Серце" <br/>б03106
+              </p>
+              <div class="catalog__item-btns">
+                <a href="#" class="catalog__item-button">+ в корзину</a>
+                <a href="#" class="catalog__item-button">Детальніше</a>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <img src="https://oniks.ua/upload/resize_cache/iblock/2c7/561_561_1/2c7af2176f13147cc86878d0ac892a29.jpg" alt="Bracelet" />
+              <p class="catalog__item-desc">
+                Золотий браслет "Серце" <br/>б03106
+              </p>
+              <div class="catalog__item-btns">
+                <a href="#" class="catalog__item-button">+ в корзину</a>
+                <a href="#" class="catalog__item-button">Детальніше</a>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <img src="https://oniks.ua/upload/resize_cache/iblock/2c7/561_561_1/2c7af2176f13147cc86878d0ac892a29.jpg" alt="Bracelet" />
+              <p class="catalog__item-desc">
+                Золотий браслет "Серце" <br/>б03106
+              </p>
+              <div class="catalog__item-btns">
+                <a href="#" class="catalog__item-button">+ в корзину</a>
+                <a href="#" class="catalog__item-button">Детальніше</a>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <img src="https://oniks.ua/upload/resize_cache/iblock/2c7/561_561_1/2c7af2176f13147cc86878d0ac892a29.jpg" alt="Bracelet" />
+              <p class="catalog__item-desc">
+                Золотий браслет "Серце" <br/>б03106
+              </p>
+              <div class="catalog__item-btns">
+                <a href="#" class="catalog__item-button">+ в корзину</a>
+                <a href="#" class="catalog__item-button">Детальніше</a>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <img src="https://oniks.ua/upload/resize_cache/iblock/2c7/561_561_1/2c7af2176f13147cc86878d0ac892a29.jpg" alt="Bracelet" />
+              <p class="catalog__item-desc">
+                Золотий браслет "Серце" <br/>б03106
+              </p>
+              <div class="catalog__item-btns">
+                <a href="#" class="catalog__item-button">+ в корзину</a>
+                <a href="#" class="catalog__item-button">Детальніше</a>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <img src="https://oniks.ua/upload/resize_cache/iblock/2c7/561_561_1/2c7af2176f13147cc86878d0ac892a29.jpg" alt="Bracelet" />
+              <p class="catalog__item-desc">
+                Золотий браслет "Серце" <br/>б03106
+              </p>
+              <div class="catalog__item-btns">
+                <a href="#" class="catalog__item-button">+ в корзину</a>
+                <a href="#" class="catalog__item-button">Детальніше</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="catalog__block-content">
+            <div class="catalog__item">
+              <img src="https://oniks.ua/upload/resize_cache/iblock/dd2/561_561_1/gkmq2x1sx3sk88hnlwp37ela8k9gprrs.jpg" alt="Dagger"/>
+              <p class="catalog__item-desc">
+                Срібний православний хрест <br />133211
+              </p>
+              <div class="catalog__item-btns">
+                <a href="#" class="catalog__item-button">+ в корзину</a>
+                <a href="#" class="catalog__item-button">Детальніше</a>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <img src="https://oniks.ua/upload/resize_cache/iblock/dd2/561_561_1/gkmq2x1sx3sk88hnlwp37ela8k9gprrs.jpg" alt="Dagger"/>
+              <p class="catalog__item-desc">
+                Срібний православний хрест <br />133211
+              </p>
+              <div class="catalog__item-btns">
+                <a href="#" class="catalog__item-button">+ в корзину</a>
+                <a href="#" class="catalog__item-button">Детальніше</a>
+              </div>
+            </div>  <div class="catalog__item">
+              <img src="https://oniks.ua/upload/resize_cache/iblock/dd2/561_561_1/gkmq2x1sx3sk88hnlwp37ela8k9gprrs.jpg" alt="Dagger"/>
+              <p class="catalog__item-desc">
+                Срібний православний хрест <br />133211
+              </p>
+              <div class="catalog__item-btns">
+                <a href="#" class="catalog__item-button">+ в корзину</a>
+                <a href="#" class="catalog__item-button">Детальніше</a>
+              </div>
+            </div>  <div class="catalog__item">
+              <img src="https://oniks.ua/upload/resize_cache/iblock/dd2/561_561_1/gkmq2x1sx3sk88hnlwp37ela8k9gprrs.jpg" alt="Dagger"/>
+              <p class="catalog__item-desc">
+                Срібний православний хрест <br />133211
+              </p>
+              <div class="catalog__item-btns">
+                <a href="#" class="catalog__item-button">+ в корзину</a>
+                <a href="#" class="catalog__item-button">Детальніше</a>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <img src="https://oniks.ua/upload/resize_cache/iblock/dd2/561_561_1/gkmq2x1sx3sk88hnlwp37ela8k9gprrs.jpg" alt="Dagger"/>
+              <p class="catalog__item-desc">
+                Срібний православний хрест <br />133211
+              </p>
+              <div class="catalog__item-btns">
+                <a href="#" class="catalog__item-button">+ в корзину</a>
+                <a href="#" class="catalog__item-button">Детальніше</a>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <img src="https://oniks.ua/upload/resize_cache/iblock/dd2/561_561_1/gkmq2x1sx3sk88hnlwp37ela8k9gprrs.jpg" alt="Dagger"/>
+              <p class="catalog__item-desc">
+                Срібний православний хрест <br />133211
+              </p>
+              <div class="catalog__item-btns">
+                <a href="#" class="catalog__item-button">+ в корзину</a>
+                <a href="#" class="catalog__item-button">Детальніше</a>
+              </div>
+            </div>
+          </div>
+          <div class="catalog__item-list">
+            <a id="btn-prev"></a>
+            <span class="catalog__list-number active">1</span>
+            <span class="catalog__list-number">2</span>
+            <span class="catalog__list-number">3</span>
+            <a id="btn-next"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sale">
+      <div class="sale__block-discounts">
+        <p class="sale__mark">-20%</p>
+        <h3 class="sale__title">Знижки на каблучки до 20%</h3>
+        <a href="#" class="sale__link">Детальніше</a>
+      </div>
+      <div class="sale__block-sale">
+        <p class="sale__mark">-20%</p>
+        <h3 class="sale__title">Розпродаж старої коллекції</h3>
+        <a href="#" class="sale__link">Детальніше</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <h3 class="footer__logo">GRACE</h3>
+
+      </div>
+    </footer>
+   
+
+  
+
+    <script src="scripts/nouislider.min.js"></script>
+    <script src="scripts/range__slider.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
